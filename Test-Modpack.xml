@@ -53,5 +53,39 @@
 	revision="1.10.2"
 	serverAddress="play.hypixel.net"
 	autoConnect="false">
+	<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2739">forge</Import>
+        <Module name="Minecraft Forge" id="forge-14.23.4.2739" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+		</Module>
+		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Liteloader.jar</URL>
+			<Size>1692624</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a911439c33779a411cb96aacf7ca300d</MD5>
+		</Module>
+		<Module name="macros" id="macros" depends="Liteloader" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Macros.litemod</URL>
+			<Size>1726452</Size>
+			<Required>true</Required>
+			<ModType>Litemod</ModType>
+			<MD5>9ba3ed960bbb676743a3b6c2e1efc484</MD5>
+		</Module>
+		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Optifine.jar</URL>
+			<Size>1949014</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5d52b61e12fd9696cebe6f0bd11186d</MD5>
+		</Module>
+		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/SoundFilters.jar</URL>
+			<Size>41838</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da0bef083b7eb63136f5d7b3152ad7ed</MD5>
+		</Module>
 	</Server>
 </ServerPack>
