@@ -46,14 +46,14 @@
 	</Server>
 	<Server
 	id="test-modpack2"
-	name="Test Example Modpack 2"
+	name="Test Example Modpack"
 	newsUrl="https://google.com"
-	version="1.10.2"
+	version="1.12.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
-	revision="1.10.2"
+	revision="1.12.2"
 	serverAddress="play.hypixel.net"
 	autoConnect="false">
-	<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2739">forge</Import>
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2739">forge</Import>
         <Module name="Minecraft Forge" id="forge-14.23.4.2739" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
