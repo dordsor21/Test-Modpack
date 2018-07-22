@@ -44,8 +44,6 @@
 			<MD5>da0bef083b7eb63136f5d7b3152ad7ed</MD5>
 		</Module>
 	</Server>
-</ServerPack>
-<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server
 	id="test-modpack2"
 	name="Test Example Modpack 2"
