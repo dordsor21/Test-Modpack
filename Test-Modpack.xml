@@ -15,82 +15,33 @@
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/BetterFoliage.jar</URL>
-			<Size>4671397</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>06714eb2c13f59df5e3c92cec7370e11</MD5>
-		</Module>
-		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/PixelCam.jar</URL>
-			<Size>676479</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>d43ce3efb819d47e70b89262ba97e04b</MD5>
-		</Module>
-		<Module name="VoxelMap" id="VoxelMap" depends="Liteloader" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/VoxelMap.litemod</URL>
-			<Size>610569</Size>
-			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<MD5>a8b0cd8196b5d8f731a101877c01877b</MD5>
-		</Module>
-		<Module name="daFlight" id="daFlight" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/daFlight.jar</URL>
-			<Size>1296871</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9f3473fdfc0dcf20c4fcb9ee57a34fd7</MD5>
-		</Module>
-		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/BetterSprinting.jar</URL>
-			<Size>75639</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>bf5e47db57d65a92dab224df77c481ae</MD5>
-		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/DynamicSurroundings.jar</URL>
-			<Size>22055819</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ce790d3dcef5e776d1f7254e53e1d014</MD5>
-		</Module>
 		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Liteloader.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Liteloader.jar</URL>
 			<Size>1692624</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>a911439c33779a411cb96aacf7ca300d</MD5>
 		</Module>
 		<Module name="macros" id="macros" depends="Liteloader" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Macros.litemod</URL>
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Macros.litemod</URL>
 			<Size>1726452</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
 			<MD5>9ba3ed960bbb676743a3b6c2e1efc484</MD5>
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Optifine.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/Optifine.jar</URL>
 			<Size>1949014</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d5d52b61e12fd9696cebe6f0bd11186d</MD5>
 		</Module>
 		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/SoundFilters.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Test-Modpack/raw/master/SoundFilters.jar</URL>
 			<Size>41838</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>da0bef083b7eb63136f5d7b3152ad7ed</MD5>
-		</Module>
-		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/WorldEditCUI.jar</URL>
-			<Size>461808</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
 		</Module>
 	</Server>
 </ServerPack>
