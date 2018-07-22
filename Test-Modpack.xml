@@ -7,8 +7,8 @@
 	version="1.12.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
 	revision="1.12.2"
-	serverAddress="play.hypixel.net"
-	autoConnect="false">
+	serverAddress="play.athion.net"
+	autoConnect="true">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2739">forge</Import>
         <Module name="Minecraft Forge" id="forge-14.23.4.2739" depends="" side="BOTH">
 			<Size>100000</Size>
