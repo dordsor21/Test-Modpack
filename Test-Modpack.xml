@@ -45,3 +45,15 @@
 		</Module>
 	</Server>
 </ServerPack>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server
+	id="test-modpack2"
+	name="Test Example Modpack 2"
+	newsUrl="https://google.com"
+	version="1.10.2"
+	mainClass="net.minecraft.launchwrapper.Launch"
+	revision="1.10.2"
+	serverAddress="play.hypixel.net"
+	autoConnect="false">
+	</Server>
+</ServerPack>
