@@ -9,6 +9,12 @@
 	revision="1.12.2"
 	serverAddress="play.athion.net"
 	autoConnect="true">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2739">forge</Import>
+        <Module name="Minecraft Forge" id="forge-14.23.4.2739" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+		</Module>
 	</Server>
 	<Server
 	id="test-modpack2"
@@ -19,6 +25,12 @@
 	revision="1.10.2"
 	serverAddress="play.hypixel.net"
 	autoConnect="false">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.3.2511">forge</Import>
+        <Module name="Minecraft Forge" id="forge-12.18.3.2511" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+		</Module>
 	</Server>
 	<Server
 	id="test-modpack3"
@@ -29,5 +41,11 @@
 	revision="1.8.8"
 	serverAddress="play.hypixel.net"
 	autoConnect="false">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.8&amp;forge=11.15.0.1655">forge</Import>
+        <Module name="Minecraft Forge" id="forge-11.15.0.1655" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+		</Module>
 	</Server>
 </ServerPack>
